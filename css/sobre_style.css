@@ -1,0 +1,22 @@
+h1 {
+    text-transform: uppercase;
+    color: #00796B;
+}
+
+#introducao_sobre {
+    display: flex;
+}
+
+section.missao-visao-valores {
+    text-align: center;
+}
+
+section.missao-visao-valores article h2{
+    font-size: 30px;
+    color: #00796B;
+    text-transform: uppercase;
+}
+
+section.missao-visao-valores article {
+    padding: 15px 30px;
+}

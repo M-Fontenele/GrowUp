@@ -1,0 +1,17 @@
+section.desenvolvimento .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.marketing .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.consultoria .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

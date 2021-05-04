@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #00796B;
+
+    width: 100%;
+    height: 80px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: white;
+}
+
+li {
+    margin: 0 20px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    left: 0;
+    background-color: #C4C4C4;
+    
+}
+
+footer p {
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+    color: #fff;
+    font-size: 20px;
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+main h1 {
+    font-size: 50px;
+    color: #00796B;
+    text-transform: uppercase;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+}
+
+.orcamento{
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.contato form input:not([type="radio"]), 
+.contato form textarea,
+.orcamento form select{
+    width: 100%;
+    padding:  5px;
+}
+.orcamento form input:not([type="radio"]), .orcamento form textarea {
+    width: 100%;
+    padding:  5px;
+}
+
+.orcamento form input:not([type="radio"]):focus,
+.orcamento form textarea:focus,
+.orcamento form select:focus {
+    outline-color: #00796B;
+}
+
+.contato form label,.orcamento form label {
+    margin: 10px 0 5px;
+    display: inline-block;
+}
+
+.contato form button,.orcamento form button {
+    border: none;
+    background-color: #00796B;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.contato .info p a {
+    color: black;
+}
+
+.contato .info {
+    padding:  15px 30px;
+
+}
+
+.contato .info iframe {
+    max-width: 100%;
+    width: 700px;
+    height:  400px;
+}
